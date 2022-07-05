@@ -6,6 +6,7 @@ body {
 
 .header_flexible {
     display: flex;
+    margin-bottom: 40px;
 
 }
 
@@ -28,7 +29,7 @@ body {
     color: orange;
 }
 
-.header_text p {
+p {
     color: #444;
     font-weight: 300;
     font-size: 18px;
@@ -40,6 +41,10 @@ body {
     width: 90%;
 }
 
+.btn {
+    margin-top: 80px;
+}
+
 .btn a {
     text-decoration: none;
     color: white;
@@ -48,4 +53,107 @@ body {
     font-size: 20px;
     border-radius: 10px;
 
+}
+
+/* ========== About Section ========= */
+.about_section {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.about_flexible {
+    display: flex;
+    margin-top: 50px;
+}
+
+.about_container {
+    width: 50%;
+}
+
+.about_img {
+    text-align: center;
+}
+
+.about_text {
+    padding: 40px;
+}
+
+.about_text h2 {
+    font-size: 35px;
+    color: #555;
+}
+
+.about_text p {
+    color: #444;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* ==========Recipes section =========== */
+.recipes_section {
+    padding: 80px;
+}
+
+.recipes_section h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #555;
+}
+
+.recipes_section p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recipes_flexible {
+    display: flex;
+}
+
+.single_blog {
+    width: 50%;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 40px;
+    margin: 50px;
+}
+
+.single_blog img {
+    width: 100%;
+}
+
+.single_blog p {
+    text-align: justify;
+    width: 100%;
+}
+
+.single_blog h2 {
+    margin-top: 35px;
+}
+
+/* =========count section ========= */
+section.count_section {
+    padding: 80px;
+}
+
+.count_flexible {
+    display: flex;
+    text-align: center;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+.single_count_area {
+    width: 50%;
+}
+
+.single_count_area h3 {
+    font-size: 30px;
+    margin-bottom: 0;
 }
