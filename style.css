@@ -139,7 +139,8 @@ p {
 
 /* =========count section ========= */
 section.count_section {
-    padding: 80px;
+    padding-top: 0px;
+    padding-bottom: 50px;
 }
 
 .count_flexible {
@@ -147,6 +148,8 @@ section.count_section {
     text-align: center;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .single_count_area {
@@ -156,4 +159,23 @@ section.count_section {
 .single_count_area h3 {
     font-size: 30px;
     margin-bottom: 0;
+}
+
+/* ========= footer section======== */
+footer.footer_section {
+    text-align: center;
+    background: #000;
+    padding: 50px;
+}
+
+.footer_section h2 span {
+    color: orange;
+}
+
+.footer_section h2 {
+    color: #555;
+}
+
+.footer_section p {
+    color: #666;
 }
